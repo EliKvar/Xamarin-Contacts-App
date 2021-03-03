@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:local ="clr-namespace:ContactsApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="ContactsApp.Views.AddContactViewPage">
+    <ContentPage.BindingContext>
+        <local:ContactsViewModel/>
+
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Margin="20"
+                 Intent="Form">
+                <TableRoot>
+                    <TableSection>
+                        <EntryCell Label="First Name"
+                               Placeholder = "Enter First Name Here"
+                                   Text="{Binding Contact.FirstName}"/>
+                        <EntryCell Label="Last Name"
+                               Placeholder = "Enter Last Name Here" 
+                                   Text="{Binding Contact.LastName}"/>
+                        <EntryCell Label="Contact Type"
+                               Placeholder = "Enter Contact Type Here"
+                                   Text="{Binding Contact.ContactType}"/>
+                        
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Text="SAVE CONTACT"
+                    Pressed="Button_Pressed_1"
+                    Command="{Binding AddContactCommand}"/>
+                    
+                    
+                    
+            <Button Text="RETURN"
+                    Pressed="Button_Pressed"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

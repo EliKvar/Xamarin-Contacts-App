@@ -1,0 +1,15 @@
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\bin\Debug\netstandard2.0\ContactsApp.deps.json
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\bin\Debug\netstandard2.0\ContactsApp.dll
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\bin\Debug\netstandard2.0\ContactsApp.pdb
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.csprojAssemblyReference.cache
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\Views\AddContactViewPage.xaml.g.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\Views\ContactsListViewPage.xaml.g.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\Views\EditDeleteContactViewPage.xaml.g.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.AssemblyInfoInputs.cache
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.AssemblyInfo.cs
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.csproj.CoreCompileInputs.cache
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.dll
+E:\ITM370 MobileAppsXamarin\ContactsApp\ContactsApp\ContactsApp\obj\Debug\netstandard2.0\ContactsApp.pdb

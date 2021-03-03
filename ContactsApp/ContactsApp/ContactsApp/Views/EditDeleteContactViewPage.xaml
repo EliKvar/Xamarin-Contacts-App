@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local ="clr-namespace:ContactsApp.ViewModels"
+             mc:Ignorable="d"           
+             x:Class="ContactsApp.Views.EditDeleteContactViewPage">
+
+    <ContentPage.BindingContext>
+        <local:ContactsViewModel/>
+
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Margin="20"
+                 Intent="Form">
+                <TableRoot>
+                    <TableSection>
+                        
+                        
+                        <EntryCell Label="First Name"
+                               Placeholder = "Enter First Name Here"
+                                   Text="{Binding SelectedContact.FirstName}"/>
+                        
+                        <EntryCell Label="Last Name"
+                               Placeholder = "Enter Last Name Here" 
+                                   Text="{Binding SelectedContact.LastName}"/>
+                        
+                        <EntryCell Label="Contact Type"
+                               Placeholder = "Enter Contact Type Here"
+                                   Text="{Binding SelectedContact.ContactType}"/>
+
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Text="SAVE EDIT"
+                    Pressed="Button_Pressed"
+                     Command="{Binding SaveEditCommand}"/>
+            
+            <Button Text="CANCEL EDIT"
+                    Pressed="Button_Pressed"
+                    Command="{Binding CancelEditCommand}"/>
+            
+            <Button Text="DELETE CONTACT"
+                    Pressed="Button_Pressed"
+                    Command="{Binding DeleteCommand}"/>
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
